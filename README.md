@@ -23,9 +23,16 @@ For the production build:
 
 ```sh
 npm run typecheck
+node scripts/check-reader.mjs
 npm run build
 npm run preview
 ```
+
+## Reading on phones and tablets
+
+The reader shows one bound page on smaller screens and two pages on wider screens. Swipe sideways or use the arrows to turn pages; scroll inside the paper to read longer passages. The controls stay within reach on phones and account for screen safe areas. Page turns follow the device's reduced-motion preference.
+
+The story includes conversational Tanglish throughout all 20 chapters and a romantic adult ending. The name reveal remains on page 101.
 
 ## Edit the book
 
